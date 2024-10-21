@@ -53,8 +53,18 @@ Models are created using different preprocessing techniques and different number
 | Calinski-Harabasz   | 79.4950                   | 79.4950                   | 79.4950                   | 7.4673            | 7.4673            | 7.4673            | 143.1638            | 143.1638            | 143.1638            | 79.4950 | 79.4950 | 79.4950 | 0        | 0        | 0        | 7.4673     | 7.4673     | 7.4673     | 143.1638   | 143.1638   | 143.1638   | 0            | 0            | 0            |
 | Davies-Bouldin      | 0.2587                    | 0.2587                    | 0.2587                    | 0.7525            | 0.7525            | 0.7525            | 0.4277              | 0.4277              | 0.4277              | 0.2587  | 0.2587  | 0.2587  | 0        | 0        | 0        | 0.7525     | 0.7525     | 0.7525     | 0.4277     | 0.4277     | 0.4277     | 0            | 0            | 0            |
 
+
+
 1. K-Means Clustering: Works best with transformation and number of clusters=5
+
+![newplot](https://github.com/user-attachments/assets/b5fff168-b2da-4359-b154-765975e3f823)
+
 
 2. Hierarchical Clustering: Provides best performance with Transformation or Transformation+PCA, with 5 clusters.
 
+  ![newplot (1)](https://github.com/user-attachments/assets/33de93ef-3dc0-4187-9e58-1b8dc36a5fac)
+
+
 3. K-Means Shift Clustering: Performs best without any preprocessing for 3/4/5 number of clusters. PCA also provides similar results
+   
+![newplot (2)](https://github.com/user-attachments/assets/59eb4a74-d66a-4110-8b72-f7993655c232)
